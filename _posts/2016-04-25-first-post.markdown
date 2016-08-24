@@ -6,4 +6,4 @@ permalink: /first-post.html
 ---
 <span class="image featured"><img src="/images/pic02.jpg" alt=""></span>
 Hello world！
-这是我的第一条内容~
+这是我的第一条测试内容~

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "My first post"
-date:   2016/4/25 14:05:46 
+title:  "好歹先写一条"
+date:   2016/8/22 14:05:46 
 permalink: /first-post.html
 ---
 <span class="image featured"><img src="/images/pic02.jpg" alt=""></span>
 Hello world！
-
+这是我的第一条内容~

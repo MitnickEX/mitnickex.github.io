@@ -5,7 +5,7 @@ date:   2016/9/7 10:10:46
 permalink: /20160907Report.html
 ---
 
-<span class="image featured"><img src="/images/pic05.jpg" alt=""></span>
+<span class="image featured"><img src="/images/pic05.jpeg" alt=""></span>
 
 
 *来新公司也快两个月了，从一开始的了解各个项目，到后来的梳理各个项目，而现在也是该从测试的角度对几个主要的产品线好好做个总结了。*
@@ -18,7 +18,7 @@ permalink: /20160907Report.html
 1. 个人建议，按项目->页面->容器->控件/插件/菜单进行拆分，先搭框架然后一点点的先merged后re-based进行集成。
 2. 框架可看作一条主线，规划好有几个页面，每个页面几个容器，然后开始对每个页面中每个容器中的元素进行开发。
 3. 每完成一个元素的开发merge到主线的分支上进行测试，测试通过再将分支re-base到主线上，如此反复。
-![](http://www.liaoxuefeng.com/files/attachments/001384909222841acf964ec9e6a4629a35a7a30588281bb000/0)
+![](http://i.imgur.com/tZF7p0h.png)
 
 多项目并行最忌讳和惧怕同时received两个hands-off的task，所以只要将开发过程单元化碎片化，那么冲突的几率就会大大减小。
 

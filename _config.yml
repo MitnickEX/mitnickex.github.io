@@ -1,6 +1,6 @@
 # Site settings
 title: MitnickEX Blog
-SEOTitle: 博宇の小巢 | MitnickEX Blog
+SEOTitle: MitnickEX Blog | 博宇の小巢 
 header-img: img/home-bg.jpg
 email: shaoboyu0723@gmail.com
 description: "关于测试与摄影 | 邵博宇，Test Engineer，Photographer | 这里是 @邵博宇 的个人博客，与你一起发现更大的世界。"
@@ -8,18 +8,33 @@ keyword: "邵博宇, 博宇, MitnickEX, mitnickshao, 博宇の小巢, MitnickEX 
 url: "http://mitnickex.github.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
+
+
 # SNS settings
 RSS: false
-#weibo_username:     这个傻X就快要自杀了
-zhihu_username:     邵博宇
+weibo_username:     shaoboyu
+zhihu_username:     shao-bo-yu
 github_username:    MitnickEX
 #twitter_username:  MitnickEX
 facebook_username:  Boyu.Shao
 # linkedin_username:  firstname-lastname-idxxxx
 
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
+
+
 
 # Markdown settings
 # replace redcarpet to kramdown,
@@ -28,3 +43,58 @@ gems: [jekyll-paginate]
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: MitnickEX
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: a14ce0a89c5d7b4976a226460cd339d6
+# Google Analytics
+ga_track_id: 'UA-83866948-1'            # Format: UA-xxxxxx-xx
+ga_domain: mitnickex.github.com
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "互联网行业从业者，<br>测试工程师一枚，<br>爱篮球爱摄影，<br>轻度中二病患者，<br>关键有个好老婆"
+sidebar-avatar: /img/MitnickEX.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "Hux Blog",
+        href: "http://huangxuan.me"
+    },{
+        title: "Foo",
+        href: "#"
+    },{
+        title: "Bar",
+        href: "#"
+    },{
+        title: "Example Friends",
+        href: "#"
+    },{
+        title: "It helps SEO",
+        href: "#"
+    }
+]

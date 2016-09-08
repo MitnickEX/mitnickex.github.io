@@ -1,11 +1,15 @@
 ---
-layout: post
-title:  "搭建web自动化测试“框架”（1） - 各部件简介"
-date:   2016/8/24 14:05:46 
-permalink: /autotest_1.html
+layout:     post
+title:      "搭建web自动化测试“框架"
+subtitle:   "各部件简介"
+date:       2016-08-24
+author:     "MitnickEX"
+header-img: "img/post-bg-unix-linux.jpg"
+tags:
+    - Web
+    - 自动化测试
 ---
 
-<span class="image featured"><img src="/images/pic03.jpg" alt=""></span>
 之前一直想搭建一个自动化测试框架，但是迷迷糊糊不求甚解。
 
 现在回过头来好好看看究竟每一步是怎么联系起来的，是怎么运行起来的。

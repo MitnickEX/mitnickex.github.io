@@ -36,7 +36,7 @@ tags:
 
 `driver.refresh()` #刷新
 
-****
+
 # 2.WebElement接口常用方法 #
 ## 2.1 定位方法 ##
 

@@ -82,19 +82,13 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
+        title: "Her Weibo",
+        href: "http://weibo.com/p/1005051744202863"
     },{
-        title: "Foo",
-        href: "#"
+        title: "Big Oupeng",
+        href: "http://www.oupeng.com/"
     },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
+        title: "Advich",
+        href: "http://www.advich.com/advichHome/"
     }
 ]

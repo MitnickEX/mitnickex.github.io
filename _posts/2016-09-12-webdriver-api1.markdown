@@ -40,7 +40,6 @@ tags:
 # 2.WebElement接口常用方法 #
 ## 2.1 定位方法 ##
 
-
 1. id定位
 
 	`find_element_by_id()`
@@ -70,6 +69,7 @@ tags:
 7. CSS定位
 
 	`find_element_by_css_selector()`
+
 	>定位速度比XPath快
 	>
 	>| 选择器  | 例子 | 描述 |

@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "搭建web自动化测试“框架(1)"
+title:      "搭建web自动化测试“框架”(1)"
 subtitle:   "各部件简介"
-date:       2016-08-24
+date:       2015-08-24
 author:     "MitnickEX"
 header-img: "img/post-bg-unix-linux.jpg"
 tags:

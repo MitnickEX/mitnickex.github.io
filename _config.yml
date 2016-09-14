@@ -62,7 +62,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 ba_track_id: a14ce0a89c5d7b4976a226460cd339d6
 # Google Analytics
 ga_track_id: 'UA-83866948-1'            # Format: UA-xxxxxx-xx
-ga_domain: mitnickex.github.com
+ga_domain: mitnickex.github.io
 
 
 

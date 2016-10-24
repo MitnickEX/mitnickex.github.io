@@ -3,7 +3,7 @@ title: MitnickEX Blog
 SEOTitle: MitnickEX Blog | 博宇の小巢 
 header-img: img/home-bg.jpg
 email: shaoboyu0723@gmail.com
-description: "关于测试与摄影 | 邵博宇，Test Engineer，Photographer | 这里是 @邵博宇 的个人博客，与你一起发现更大的世界。"
+description: "关于测试与摄影 | 邵博宇，Test Engineer，Photographer | 这里是 @邵博宇 的个人博客，最爱章亚男，与你一起发现更大的世界。"
 keyword: "邵博宇, 博宇, MitnickEX, mitnickshao, 博宇の小巢, MitnickEX Blog, 章亚男老公的博客, 邵立博哥哥的博客, 金邵杰哥哥的博客"
 url: "http://mitnickex.github.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -82,13 +82,21 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "HerWeibo",
+        title: "章亚男",
         href: "http://weibo.com/p/1005051744202863"
     },{
-        title: "BigOupeng",
+
+        title: "邵立博",
+        href: "http://weibo.com/u/2725002173"
+    },{
+        title: "金邵杰",
+        href: "http://weibo.com/u/1728900882"
+    },{
+
+        title: "Oupeng",
         href: "http://www.oupeng.com/"
     },{
         title: "Advich",
-        href: "http://www.advich.com/advichHome/"
+        href: "http://www.advich.com/advichHome/"       
     }
 ]

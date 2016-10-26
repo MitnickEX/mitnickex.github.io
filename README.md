@@ -1,4 +1,4 @@
-# Bobop.C Blog
+# MitnickEX Blog
 
 ###[http://mitnickex.github.io](http://mitnickex.github.io)
 

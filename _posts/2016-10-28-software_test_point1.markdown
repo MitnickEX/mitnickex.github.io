@@ -2,7 +2,7 @@
 layout:     post
 title:      "软件测试知识点总结"
 subtitle:   "快速入门上篇"
-date:       2016-10-26
+date:       2016-10-28
 author:     "MitnickEX"
 header-img: "img/post-bg-software-test-point.jpg"
 tags:

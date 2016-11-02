@@ -14,6 +14,10 @@ tags:
 
 [软件测试知识点总结-快速入门上篇](http://mitnickex.github.io/2016/10/26/software_test_point1/)
 
+[软件测试知识点总结-快速入门中篇](http://mitnickex.github.io/2016/10/26/software_test_point2/)
+
+[软件测试知识点总结-快速入门下篇](http://mitnickex.github.io/2016/10/26/software_test_point3/)
+
 # 3、测试方案 #
 
 #### 测试方案：技术层面文档，主要对被测软件测试特性、方法、环境等进行规范，解决怎么做的问题； ####

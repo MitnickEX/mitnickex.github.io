@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "软件测试知识点总结"
+title:      "软件测试知识点总结(2)"
 subtitle:   "快速入门中篇"
 date:       2016-10-31
 author:     "MitnickEX"

@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "数据分析"
+title:      "数据分析_长期更新(2)"
 subtitle:   "什么是心智模型"
 date:       2016-10-24
 author:     "MitnickEX"

@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "数据分析"
+title:      "数据分析_长期更新(1)"
 subtitle:   "初识篇"
 date:       2016-10-19
 author:     "MitnickEX"

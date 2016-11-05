@@ -1,12 +1,13 @@
 ---
 layout:     post
-title:      "数据分析_长期更新(1)"
+title:      "深入浅出数据分析(1)"
 subtitle:   "初识篇"
 date:       2016-10-19
 author:     "MitnickEX"
 header-img: "img/post-bg-data-analysis.jpg"
 tags:
     - 数据分析
+    
 ---
 
 *在研究了一段时间Selenium之后，最近又开始瞎逼研究数据分析，不过对于近一个月没有学习，还是要在此好好做个检讨*

@@ -1,12 +1,13 @@
 ---
 layout:     post
-title:      "数据分析_长期更新(3)"
+title:      "深入浅出数据分析(3)"
 subtitle:   "寻找最大值"
 date:       2016-11-04
 author:     "MitnickEX"
 header-img: "img/post-bg-data-analysis.jpg"
 tags:
     - 数据分析
+ 
 ---
 
 *从这一更的数据分析就有意思了，因为中间会设计一些工具和图形，装逼的时候到了~( ﹁ ﹁ ) ~→*

@@ -50,6 +50,13 @@ tags:
 
 该工具主要用于可以选择Test From的位置进行站点的速度测试。
 
+# Lipperhey #
+
+补充一个之前漏掉的工具Lipperhey，该工具用于查看站点中可以进行SEO优化的建议和方向。[点击查看](https://www.lipperhey.com/en)
+
+如下图：
+![](http://i.imgur.com/9zp4jHy.png)
+
 # 然而 #
 
 **说了这么多都是一些国外的工具，难道国内就没有趁手的工具了吗？**

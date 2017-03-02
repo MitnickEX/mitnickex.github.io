@@ -50,6 +50,6 @@ Robots.txt是存在于每个网站的根目录下的文件，可用于向搜索�
 ![](http://i.imgur.com/HTZ8Tvg.png)
 
 ----
-以上就是今天要带来的全部分享内容，后续会继续对《第3步：高级页面SEO基础》进行分析，敬请期待。
+以上就是今天要带来的全部分享内容，后续会继续对《第3步：页面内容SEO高级》进行分析，敬请期待。
 
 原版英文出处：[https://www.reliablesoft.net/diy-seo-tutorial-for-beginners/](https://www.reliablesoft.net/diy-seo-tutorial-for-beginners/)

@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "如何逐步的进行SEO优化"
-subtitle:   "页面内容SEO基础(1)"
+title:      "如何逐步的进行SEO优化(1)"
+subtitle:   "On-Page SEO"
 date:       2017-02-28
 author:     "MitnickEX"
 header-img: "img/post-bg-seo.jpg"
@@ -28,14 +28,12 @@ SEO有两个主要目标：
 
 处理SEO的最好方法是使用逐步的方法。整个过程可以分为4个步骤，这些步骤是：
 
-- On-Page SEO – What kind of content to publish on your website and how to structure / setup your webpages so that search engines can read and understand them.
-- Technical SEO – How to make sure that search engines can access your website without any issues.
+- [On-Page SEO](http://mitnickex.github.io/2017/02/28/seo-acknowledge1/) – What kind of content to publish on your website and how to structure / setup your webpages so that search engines can read and understand them.
+- [Technical SEO](http://mitnickex.github.io/2017/03/02/seo-acknowledge2/) – How to make sure that search engines can access your website without any issues.
 - Advanced On-Page SEO – Additional settings to apply to your website so that you get more attention and visibility from search engines.
 - Off–Page SEO – Link Building and other techniques to promote your website on the Internet and get more exposure.
 
 ----
-今天，暂时分享第一步——**页面内容SEO基础**。
-
 # 第1步：页面内容SEO基础 #
 ![](http://i.imgur.com/zI2uIrR.jpg)
 

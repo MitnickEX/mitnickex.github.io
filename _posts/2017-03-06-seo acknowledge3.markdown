@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "如何逐步的进行SEO优化(2)"
-subtitle:   "Technical SEO"
+title:      "如何逐步的进行SEO优化(3)"
+subtitle:   "Advanced On-Page SEO"
 date:       2017-03-02
 author:     "MitnickEX"
 header-img: "img/post-bg-seo.jpg"

@@ -16,11 +16,11 @@ tags:
 
 *下面继续之前的软件测试知识点总结的最终篇*
 
-[软件测试知识点总结-快速入门上篇](http://mitnickex.github.io/2016/10/26/software_test_point1/)
+[软件测试知识点总结-快速入门上篇](http://mitnickex.github.io/2016/10/28/software_test_point1/)
 
-[软件测试知识点总结-快速入门中篇](http://mitnickex.github.io/2016/10/26/software_test_point2/)
+[软件测试知识点总结-快速入门中篇](http://mitnickex.github.io/2016/10/31/software_test_point2/)
 
-[软件测试知识点总结-快速入门下篇](http://mitnickex.github.io/2016/10/26/software_test_point3/)
+[软件测试知识点总结-快速入门下篇](http://mitnickex.github.io/2016/11/02/software_test_point3/)
 
 
 # 5、测试执行 #

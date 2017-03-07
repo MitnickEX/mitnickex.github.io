@@ -13,11 +13,11 @@ tags:
 *之前的发的都是一些技术文章，貌似不是特别接地气……趁着公司要来新人，今天带来一点浅显易懂的测试基础……但是基本会想到哪儿写哪儿，所以也许会比较乱……那么，来死狗~*
 ![](http://i.imgur.com/rQDaWrr.jpg)
 
-[软件测试知识点总结-快速入门上篇](http://mitnickex.github.io/2016/10/26/software_test_point1/)
+[软件测试知识点总结-快速入门上篇](http://mitnickex.github.io/2016/10/28/software_test_point1/)
 
-[软件测试知识点总结-快速入门中篇](http://mitnickex.github.io/2016/10/26/software_test_point2/)
+[软件测试知识点总结-快速入门中篇](http://mitnickex.github.io/2016/10/31/software_test_point2/)
 
-[软件测试知识点总结-快速入门下篇](http://mitnickex.github.io/2016/10/26/software_test_point3/)
+[软件测试知识点总结-快速入门下篇](http://mitnickex.github.io/2016/11/02/software_test_point3/)
 
 首先，软件测试是什么鬼？
 > 软件测试：特定的环境、特定的条件下运行软件，验证其能正常运行，并发现其缺陷，对软件的质量进行评估的过程

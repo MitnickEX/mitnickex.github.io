@@ -15,8 +15,8 @@ tags:
 
 - [如何逐步的进行SEO优化(1) - On-Page SEO](http://mitnickex.github.io/2017/02/28/seo-acknowledge1/)
 - [如何逐步的进行SEO优化(2) - Technical SEO](http://mitnickex.github.io/2017/03/02/seo-acknowledge2/)
-- 如何逐步的进行SEO优化(3) - Advanced On-Page SEO (TBD)
-- 如何逐步的进行SEO优化(4) - Off–Page SEO (TBD)
+- [如何逐步的进行SEO优化(3) - Advanced On-Page SEO](http://mitnickex.github.io/2017/03/06/seo-acknowledge3/)
+- [如何逐步的进行SEO优化(4) - Off–Page SEO](http://mitnickex.github.io/2017/03/28/seo-acknowledge4/)
 
 ----------
 

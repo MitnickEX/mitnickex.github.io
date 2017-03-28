@@ -30,8 +30,8 @@ SEO有两个主要目标：
 
 - [On-Page SEO](http://mitnickex.github.io/2017/02/28/seo-acknowledge1/) – What kind of content to publish on your website and how to structure / setup your webpages so that search engines can read and understand them.
 - [Technical SEO](http://mitnickex.github.io/2017/03/02/seo-acknowledge2/) – How to make sure that search engines can access your website without any issues.
-- Advanced On-Page SEO – Additional settings to apply to your website so that you get more attention and visibility from search engines.
-- Off–Page SEO – Link Building and other techniques to promote your website on the Internet and get more exposure.
+- [Advanced On-Page SEO](http://mitnickex.github.io/2017/03/06/seo-acknowledge3/) – Additional settings to apply to your website so that you get more attention and visibility from search engines.
+- [Off–Page SEO](http://mitnickex.github.io/2017/03/28/seo-acknowledge4/) – Link Building and other techniques to promote your website on the Internet and get more exposure.
 
 ----
 # 第1步：页面内容SEO基础 #

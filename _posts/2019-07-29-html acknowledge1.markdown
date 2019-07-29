@@ -33,7 +33,7 @@ tags:
  
       <style>
     .simple-page {
-    background-image: url('http://172.26.128.128/TestGroup/TOOLS/login.png');
+    background-image: url('xxxxx/login.png');
     background-repeat: no-repeat;
     background-size:100% 100%;
     background-position: 50% 0;
@@ -42,7 +42,7 @@ tags:
     height: 100%;
     }
     .simple-page .logo {
-    background-image: url('/jenkins/static/94b369a7/images/xxx.svg');
+    background-image: url('xxxx/logo.svg');
     background-repeat: no-repeat;
     background-position: 50% 0;
     height: 230px;
@@ -51,11 +51,15 @@ tags:
     
 
 对应的操作分别是：1.对背景图进行了设置；2.对Logo进行设置。但是在预览后发现第一个针对.simple-page的样式并没有达到覆盖全屏的期望。
+
 ![](https://i.imgur.com/Am4yqWp.png)
+
 所以，进行多番调研代码上的尝试，依然没什么用……
 
 最后将.simple-page直接换成了body，完美搞定！！！
+
 ![](https://i.imgur.com/aBsHUpi.png)
+
 
 ----
 Notes：本篇文章由于时间问题只进行简单尝试，精品文章请持续关注，即将到来！

@@ -37,6 +37,7 @@ exclude:
   - ".git"
   - ".github"
   - "docs"
+  - "*.md" # 排除根目录下的所有markdown文件，只保留_posts里的文章
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 # Markdown 处理优化（Jekyll 4.x 新特性）

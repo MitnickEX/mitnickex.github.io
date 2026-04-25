@@ -1,0 +1,178 @@
+---
+layout: default
+title: 文章归档
+description: 浏览所有技术文章和生活感悟
+---
+
+<section class="archive-section">
+    <div class="container">
+        <div class="section-header">
+            <h1 class="section-title">文章归档</h1>
+            <div class="title-underline"></div>
+            <p class="archive-description">共 {{ site.posts.size }} 篇文章，记录技术成长与生活感悟</p>
+        </div>
+
+        {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+        {% for year in postsByYear %}
+        <div class="year-group">
+            <h2 class="year-title">{{ year.name }} 年</h2>
+            <div class="posts-list">
+                {% for post in year.items %}
+                <div class="post-item glass-card">
+                    <div class="post-date">{{ post.date | date: "%m-%d" }}</div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                        </h3>
+                        {% if post.subtitle %}
+                        <p class="post-subtitle">{{ post.subtitle }}</p>
+                        {% endif %}
+                        {% if post.tags.size > 0 %}
+                        <div class="post-tags">
+                            {% for tag in post.tags %}
+                            <span class="post-tag">{{ tag }}</span>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="post-arrow">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<style>
+.archive-section {
+    padding: var(--spacing-2xl) 0;
+    min-height: calc(100vh - 200px);
+}
+
+.archive-description {
+    color: var(--text-tertiary);
+    margin-top: var(--spacing-sm);
+    font-size: 1.1rem;
+}
+
+.year-group {
+    margin-bottom: var(--spacing-2xl);
+}
+
+.year-title {
+    font-size: 1.8rem;
+    color: var(--accent-primary);
+    margin-bottom: var(--spacing-lg);
+    font-weight: 700;
+    padding-left: var(--spacing-sm);
+    border-left: 4px solid var(--accent-primary);
+}
+
+.posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.post-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+    padding: var(--spacing-md) var(--spacing-lg);
+    transition: all var(--transition-normal);
+}
+
+.post-item:hover {
+    transform: translateX(8px);
+}
+
+.post-date {
+    min-width: 80px;
+    color: var(--text-tertiary);
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.post-content {
+    flex-grow: 1;
+}
+
+.post-title {
+    font-size: 1.2rem;
+    margin-bottom: var(--spacing-xs);
+}
+
+.post-title a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.post-title a:hover {
+    color: var(--accent-primary);
+}
+
+.post-subtitle {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: var(--spacing-xs);
+}
+
+.post-tags {
+    display: flex;
+    gap: var(--spacing-xs);
+    flex-wrap: wrap;
+}
+
+.post-tag {
+    background: rgba(138, 43, 226, 0.2);
+    color: var(--accent-secondary);
+    padding: 2px 8px;
+    border-radius: var(--radius-sm);
+    font-size: 0.8rem;
+}
+
+.post-arrow {
+    color: var(--text-tertiary);
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all var(--transition-fast);
+    opacity: 0;
+    transform: translateX(-10px);
+}
+
+.post-item:hover .post-arrow {
+    opacity: 1;
+    transform: translateX(0);
+    color: var(--accent-primary);
+}
+
+@media (max-width: 768px) {
+    .post-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-sm);
+    }
+
+    .post-date {
+        min-width: auto;
+        font-size: 0.9rem;
+        background: rgba(0, 245, 255, 0.1);
+        color: var(--accent-primary);
+        padding: 2px 8px;
+        border-radius: var(--radius-sm);
+    }
+
+    .post-arrow {
+        display: none;
+    }
+
+    .year-title {
+        font-size: 1.5rem;
+    }
+}
+</style>

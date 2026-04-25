@@ -3,12 +3,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
     <meta name="baidu-site-verification" content="IjuVBfvmcd" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=yes, viewport-fit=cover">
-<meta name="format-detection" content="telephone=no">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+    <meta name="application-name" content="{{ site.title }}">
+    <meta name="msapplication-TileColor" content="#0a0e17">
+    <meta name="theme-color" content="#0a0e17">
     <meta name="description" content="{{ site.description }}">
-    <meta name="keyword"  content="{{ site.keyword }}">
+    <meta name="keywords" content="{{ site.keyword }}">
+    <meta name="author" content="{{ site.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:image" content="{{ site.url }}/img/MitnickEX.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="{{ site.url }}/img/MitnickEX.jpg">
+    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/img/apple-touch-icon.png">
     <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
     <link rel="author" href="https://plus.google.com/u/0/109362480884647509927" /> 
     
@@ -32,6 +49,9 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/hux-blog.min.css" | prepend: site.baseurl }}">
+
+    <!-- Modern Design CSS -->
+    <link rel="stylesheet" href="{{ "/css/modern.css" | prepend: site.baseurl }}">
 
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
@@ -75,6 +95,9 @@
       gtag('config', '{{ site.ga4_measurement_id }}');
     </script>
     {% endif %}
+
+    <!-- Particles.js for background effect -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
     <!-- ga & ba script hoook -->
     <script></script>

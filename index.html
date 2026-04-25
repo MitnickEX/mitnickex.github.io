@@ -1,43 +1,191 @@
 ---
-layout: page
-description: "HI, 我是邵博宇, <br>一名测试工程师, 
-这是我的个人博客,<br> 这里将记载我学习和工作上的收获"
+layout: default
+description: "HI, 我是邵博宇, <br>一名测试工程师,
+这是我的个人主页,<br> 探索技术与创意的无限可能"
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1 class="glitch-text" data-text="邵博宇">邵博宇</h1>
+            <h2 class="subtitle">测试工程师 · 摄影爱好者 · 技术探索者</h2>
+            <p class="description">
+                专注于软件质量保障，热爱摄影与旅行，<br>
+                在这里分享技术见解、生活感悟和摄影作品。
+            </p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">了解更多</a>
+                <a href="#posts" class="btn btn-outline">浏览博客</a>
+            </div>
         </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
+        <div class="hero-visual">
+            <div class="avatar-container">
+                <div class="avatar-glow"></div>
+                <img src="{{ site.baseurl }}{{ site.sidebar-avatar }}" alt="邵博宇" class="avatar">
+            </div>
+            <div class="floating-elements">
+                <div class="float-element element-1"></div>
+                <div class="float-element element-2"></div>
+                <div class="float-element element-3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <div class="scroll-mouse">
+            <div class="scroll-wheel"></div>
+        </div>
+        <span>向下滚动</span>
+    </div>
+</section>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+<!-- About Section -->
+<section id="about" class="about-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">关于我</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-card glass-card">
+                <div class="about-info">
+                    <h3>👨‍💻 技术栈</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">软件测试</span>
+                        <span class="skill-tag">自动化测试</span>
+                        <span class="skill-tag">性能测试</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">DevOps</span>
+                        <span class="skill-tag">CI/CD</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-card glass-card">
+                <div class="about-info">
+                    <h3>📸 兴趣爱好</h3>
+                    <div class="hobby-list">
+                        <div class="hobby-item">
+                            <i class="fa fa-camera"></i>
+                            <span>摄影</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fa fa-basketball-ball"></i>
+                            <span>篮球</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fa fa-plane"></i>
+                            <span>旅行</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fa fa-code"></i>
+                            <span>技术探索</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fa fa-heart"></i>
+                            <span>陪伴家人</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-card glass-card">
+                <div class="about-info">
+                    <h3>🔗 社交链接</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/{{ site.github_username }}" target="_blank" class="social-link">
+                            <i class="fa fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.zhihu.com/people/{{ site.zhihu_username }}" target="_blank" class="social-link">
+                            <i class="fa fa-book"></i>
+                            <span>知乎</span>
+                        </a>
+                        <a href="https://weibo.com/{{ site.weibo_username }}" target="_blank" class="social-link">
+                            <i class="fa fa-weibo"></i>
+                            <span>微博</span>
+                        </a>
+                        <a href="mailto:{{ site.email }}" class="social-link">
+                            <i class="fa fa-envelope"></i>
+                            <span>邮箱</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Posts Section -->
+<section id="posts" class="posts-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">最新文章</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="posts-grid">
+            {% for post in paginator.posts limit:6 %}
+            <article class="post-card glass-card">
+                <div class="post-card-content">
+                    <div class="post-meta">
+                        <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                        {% if post.tags.size > 0 %}
+                        <span class="post-tag">{{ post.tags[0] }}</span>
+                        {% endif %}
+                    </div>
+                    <h3 class="post-title">
+                        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </h3>
+                    {% if post.subtitle %}
+                    <p class="post-subtitle">{{ post.subtitle }}</p>
+                    {% endif %}
+                    <p class="post-excerpt">{{ post.content | strip_html | truncate: 120 }}</p>
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">
+                        阅读全文 <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+        {% if paginator.total_pages > 1 %}
+        <div class="view-all-posts">
+            <a href="/archive" class="btn btn-outline">查看所有文章</a>
+        </div>
+        {% endif %}
+    </div>
+</section>
+
+<!-- Friends Section -->
+<section class="friends-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">友情链接</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="friends-grid">
+            {% for friend in site.friends %}
+            <a href="{{ friend.href }}" target="_blank" class="friend-card glass-card">
+                <span>{{ friend.title }}</span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section">
+    <div class="container">
+        <div class="contact-content glass-card">
+            <h2>保持联系</h2>
+            <p>欢迎通过以下方式与我交流，探讨技术、摄影或生活话题</p>
+            <div class="contact-buttons">
+                <a href="mailto:{{ site.email }}" class="btn btn-primary">
+                    <i class="fa fa-envelope"></i> 发送邮件
+                </a>
+                <a href="https://github.com/{{ site.github_username }}" target="_blank" class="btn btn-outline">
+                    <i class="fa fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

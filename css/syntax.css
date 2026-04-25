@@ -82,3 +82,31 @@
 .highlight .vi { color: teal; }
 .highlight .il { color: #009999; }
 .highlight .gc { color: #999; background-color: #EAF2F5; }
+
+/* 移动端代码块优化 */
+@media only screen and (max-width: 767px) {
+  .highlight pre, pre {
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 20px -15px;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  .highlight pre code {
+    white-space: pre;
+    word-wrap: normal;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .highlight pre, pre {
+    margin: 15px -12px;
+    padding: 8px;
+    font-size: 11px;
+  }
+}

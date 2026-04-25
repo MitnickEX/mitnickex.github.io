@@ -55,6 +55,27 @@ liquid:
   strict_filters: false
   strict_variables: false
 
+# HTML压缩配置
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [development]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
+
+# Markdown优化
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+    span:
+      line_numbers: false
+
 
 
 # Plugins

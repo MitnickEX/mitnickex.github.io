@@ -90,9 +90,11 @@ kramdown:
 # Analytics settings
 # Baidu Analytics
 ba_track_id: a14ce0a89c5d7b4976a226460cd339d6
-# Google Analytics
+# Google Analytics (旧版UA，已停止服务，仅作过渡)
 ga_track_id: 'UA-83866948-1'            # Format: UA-xxxxxx-xx
 ga_domain: mitnickex.github.io
+# Google Analytics 4 (新版)
+ga4_measurement_id: 'G-XXXXXXXXXX'      # Format: G-XXXXXXXXXX
 
 
 

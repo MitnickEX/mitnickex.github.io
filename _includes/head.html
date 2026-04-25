@@ -50,6 +50,18 @@
     })(window,document,'script','dataLayer','GTM-WGZL7PX');</script>
     <!-- End Google Tag Manager -->
 
+    <!-- Google tag (gtag.js) - GA4 -->
+    {% if site.ga4_measurement_id %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4_measurement_id }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ site.ga4_measurement_id }}');
+    </script>
+    {% endif %}
+
     <!-- ga & ba script hoook -->
     <script></script>
 </head>

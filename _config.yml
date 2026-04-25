@@ -25,14 +25,45 @@ facebook_username:  Boyu.Shao
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude:
+  - "less"
+  - "node_modules"
+  - "Gruntfile.js"
+  - "package.json"
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "vendor"
+  - ".git"
+  - ".github"
+  - "docs"
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
+# Markdown 处理优化（Jekyll 4.x 新特性）
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# 性能优化
+incremental: true
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
 
 
-# Gems
+
+# Plugins
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
 
 
@@ -49,10 +80,9 @@ kramdown:
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
 
-# Duoshuo settings
-duoshuo_username: MitnickEX
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# Duoshuo settings (已移除，多说服务已停运)
+# duoshuo_username: MitnickEX
+# duoshuo_share: true
 
 
 

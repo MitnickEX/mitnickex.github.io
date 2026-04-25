@@ -1,191 +1,762 @@
 ---
 layout: default
-description: "HI, 我是邵博宇, <br>一名测试工程师,
-这是我的个人主页,<br> 探索技术与创意的无限可能"
+description: "安全测试工程师 | 技术探索者 | 摄影爱好者"
 ---
 
-<!-- Hero Section -->
-<section class="hero">
-    <div class="hero-content">
-        <div class="hero-text">
-            <h1 class="glitch-text" data-text="邵博宇">邵博宇</h1>
-            <h2 class="subtitle">测试工程师 · 摄影爱好者 · 技术探索者</h2>
-            <p class="description">
-                专注于软件质量保障，热爱摄影与旅行，<br>
-                在这里分享技术见解、生活感悟和摄影作品。
-            </p>
-            <div class="hero-buttons">
-                <a href="#about" class="btn btn-primary">了解更多</a>
-                <a href="#posts" class="btn btn-outline">浏览博客</a>
-            </div>
+<!-- 动态背景层 -->
+<div class="matrix-bg"></div>
+<div class="grid-overlay"></div>
+<div class="scan-line"></div>
+
+<!-- Hero Section - 黑客风格 -->
+<section class="hero cyber-hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="terminal-prompt">
+        <span class="prompt-symbol">></span>
+        <span class="command typing-text">whoami</span>
+        <span class="cursor">_</span>
+      </div>
+      <h1 class="glitch-name" data-text="邵博宇">
+        <span class="text-layer">邵博宇</span>
+        <span class="glitch-layer"></span>
+      </h1>
+      <div class="title-rotator">
+        <span class="title-item active">安全测试工程师</span>
+        <span class="title-item">漏洞猎手</span>
+        <span class="title-item">开源贡献者</span>
+        <span class="title-item">摄影爱好者</span>
+      </div>
+      <p class="bio">
+        专注于Web安全、自动化测试和性能优化，
+        热爱探索技术边界，用代码构建更安全的数字世界。
+        闲暇时用镜头记录生活的美好瞬间。
+      </p>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number" data-target="5">0</span>
+          <span class="stat-label">年经验</span>
         </div>
-        <div class="hero-visual">
-            <div class="avatar-container">
-                <div class="avatar-glow"></div>
-                <img src="{{ site.baseurl }}{{ site.sidebar-avatar }}" alt="邵博宇" class="avatar">
-            </div>
-            <div class="floating-elements">
-                <div class="float-element element-1"></div>
-                <div class="float-element element-2"></div>
-                <div class="float-element element-3"></div>
-            </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="50">0</span>
+          <span class="stat-label">项目完成</span>
         </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="100">0</span>
+          <span class="stat-label">漏洞发现</span>
+        </div>
+      </div>
+      <div class="cta-buttons">
+        <a href="#skills" class="btn btn-glitch">
+          <span class="btn-text">查看技能</span>
+          <span class="btn-glitch-effect"></span>
+        </a>
+        <a href="#projects" class="btn btn-hollow">
+          <span class="btn-text">项目作品</span>
+        </a>
+      </div>
     </div>
-    <div class="scroll-indicator">
-        <div class="scroll-mouse">
-            <div class="scroll-wheel"></div>
+    <div class="hero-visual">
+      <div class="hologram-container">
+        <div class="hologram-effect"></div>
+        <div class="avatar-frame">
+          <div class="scan-effect"></div>
+          <img src="{{ site.baseurl }}{{ site.sidebar-avatar }}" alt="邵博宇" class="avatar">
         </div>
-        <span>向下滚动</span>
+        <div class="binary-rain">
+          <span class="binary-digit">0</span>
+          <span class="binary-digit">1</span>
+          <span class="binary-digit">0</span>
+          <span class="binary-digit">1</span>
+          <span class="binary-digit">0</span>
+          <span class="binary-digit">1</span>
+        </div>
+      </div>
+      <div class="floating-badges">
+        <div class="badge security-badge">
+          <i class="fa fa-shield"></i>
+          <span>Security</span>
+        </div>
+        <div class="badge code-badge">
+          <i class="fa fa-code"></i>
+          <span>Developer</span>
+        </div>
+        <div class="badge camera-badge">
+          <i class="fa fa-camera"></i>
+          <span>Photography</span>
+        </div>
+      </div>
     </div>
+  </div>
+  <div class="scroll-prompt">
+    <div class="scroll-line"></div>
+    <span class="scroll-text">SCROLL DOWN</span>
+  </div>
 </section>
 
-<!-- About Section -->
-<section id="about" class="about-section">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">关于我</h2>
-            <div class="title-underline"></div>
-        </div>
-        <div class="about-content">
-            <div class="about-card glass-card">
-                <div class="about-info">
-                    <h3>👨‍💻 技术栈</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">软件测试</span>
-                        <span class="skill-tag">自动化测试</span>
-                        <span class="skill-tag">性能测试</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">Linux</span>
-                        <span class="skill-tag">DevOps</span>
-                        <span class="skill-tag">CI/CD</span>
-                    </div>
-                </div>
-            </div>
-            <div class="about-card glass-card">
-                <div class="about-info">
-                    <h3>📸 兴趣爱好</h3>
-                    <div class="hobby-list">
-                        <div class="hobby-item">
-                            <i class="fa fa-camera"></i>
-                            <span>摄影</span>
-                        </div>
-                        <div class="hobby-item">
-                            <i class="fa fa-basketball-ball"></i>
-                            <span>篮球</span>
-                        </div>
-                        <div class="hobby-item">
-                            <i class="fa fa-plane"></i>
-                            <span>旅行</span>
-                        </div>
-                        <div class="hobby-item">
-                            <i class="fa fa-code"></i>
-                            <span>技术探索</span>
-                        </div>
-                        <div class="hobby-item">
-                            <i class="fa fa-heart"></i>
-                            <span>陪伴家人</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="about-card glass-card">
-                <div class="about-info">
-                    <h3>🔗 社交链接</h3>
-                    <div class="social-links">
-                        <a href="https://github.com/{{ site.github_username }}" target="_blank" class="social-link">
-                            <i class="fa fa-github"></i>
-                            <span>GitHub</span>
-                        </a>
-                        <a href="https://www.zhihu.com/people/{{ site.zhihu_username }}" target="_blank" class="social-link">
-                            <i class="fa fa-book"></i>
-                            <span>知乎</span>
-                        </a>
-                        <a href="https://weibo.com/{{ site.weibo_username }}" target="_blank" class="social-link">
-                            <i class="fa fa-weibo"></i>
-                            <span>微博</span>
-                        </a>
-                        <a href="mailto:{{ site.email }}" class="social-link">
-                            <i class="fa fa-envelope"></i>
-                            <span>邮箱</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!-- 技能矩阵区域 -->
+<section id="skills" class="skills-section">
+  <div class="container">
+    <div class="section-header cyber-header">
+      <span class="section-prefix">//</span>
+      <h2 class="section-title">技能矩阵</h2>
+      <div class="section-underline">
+        <span class="underline-glitch"></span>
+      </div>
     </div>
+
+    <div class="skills-grid">
+      <!-- 安全测试 -->
+      <div class="skill-category-card">
+        <div class="category-header">
+          <div class="category-icon">
+            <i class="fa fa-shield-halved"></i>
+          </div>
+          <h3>安全测试</h3>
+          <span class="category-level">专家</span>
+        </div>
+        <div class="skill-items">
+          <div class="skill-item">
+            <span class="skill-name">Web渗透测试</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 95%"></div>
+            </div>
+            <span class="skill-percent">95%</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">漏洞挖掘</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 90%"></div>
+            </div>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">自动化安全扫描</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 88%"></div>
+            </div>
+            <span class="skill-percent">88%</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">代码审计</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%"></div>
+            </div>
+            <span class="skill-percent">85%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 开发技术 -->
+      <div class="skill-category-card">
+        <div class="category-header">
+          <div class="category-icon">
+            <i class="fa fa-code"></i>
+          </div>
+          <h3>开发技术</h3>
+          <span class="category-level">熟练</span>
+        </div>
+        <div class="skill-items">
+          <div class="skill-item">
+            <span class="skill-name">Python</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 92%"></div>
+            </div>
+            <span class="skill-percent">92%</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%"></div>
+            </div>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Linux/Shell</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 88%"></div>
+            </div>
+            <span class="skill-percent">88%</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Docker/K8s</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 78%"></div>
+            </div>
+            <span class="skill-percent">78%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 测试工程 -->
+      <div class="skill-category-card">
+        <div class="category-header">
+          <div class="category-icon">
+            <i class="fa fa-flask-vial"></i>
+          </div>
+          <h3>测试工程</h3>
+          <span class="category-level">专家</span>
+        </div>
+        <div class="skill-items">
+          <div class="skill-item">
+            <span class="skill-name">自动化测试</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 94%"></div>
+            </div>
+            <span class="skill-percent">94%</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">性能测试</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 87%"></div>
+            </div>
+            <span class="skill-percent">87%</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">CI/CD流水线</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 86%"></div>
+            </div>
+            <span class="skill-percent">86%</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">测试平台开发</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 82%"></div>
+            </div>
+            <span class="skill-percent">82%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 技能标签云 -->
+    <div class="tag-cloud">
+      <span class="tag-item">OWASP TOP 10</span>
+      <span class="tag-item">Burp Suite</span>
+      <span class="tag-item">Nmap</span>
+      <span class="tag-item">Metasploit</span>
+      <span class="tag-item">SQL注入</span>
+      <span class="tag-item">XSS</span>
+      <span class="tag-item">CSRF</span>
+      <span class="tag-item">SSRF</span>
+      <span class="tag-item">爬虫开发</span>
+      <span class="tag-item">反向代理</span>
+      <span class="tag-item">Jenkins</span>
+      <span class="tag-item">GitLab CI</span>
+      <span class="tag-item">接口测试</span>
+      <span class="tag-item">UI自动化</span>
+      <span class="tag-item">压力测试</span>
+      <span class="tag-item">JUnit</span>
+      <span class="tag-item">pytest</span>
+      <span class="tag-item">Selenium</span>
+      <span class="tag-item">Appium</span>
+      <span class="tag-item">Postman</span>
+      <span class="tag-item">JMeter</span>
+      <span class="tag-item">LoadRunner</span>
+      <span class="tag-item">TCP/IP</span>
+      <span class="tag-item">HTTP/HTTPS</span>
+      <span class="tag-item">WebSocket</span>
+      <span class="tag-item">RESTful API</span>
+      <span class="tag-item">GraphQL</span>
+      <span class="tag-item">MySQL</span>
+      <span class="tag-item">MongoDB</span>
+      <span class="tag-item">Redis</span>
+      <span class="tag-item">Elasticsearch</span>
+      <span class="tag-item">Nginx</span>
+      <span class="tag-item">Apache</span>
+      <span class="tag-item">AWS</span>
+      <span class="tag-item">阿里云</span>
+      <span class="tag-item">腾讯云</span>
+    </div>
+  </div>
 </section>
 
-<!-- Featured Posts Section -->
-<section id="posts" class="posts-section">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">最新文章</h2>
-            <div class="title-underline"></div>
-        </div>
-        <div class="posts-grid">
-            {% for post in paginator.posts limit:6 %}
-            <article class="post-card glass-card">
-                <div class="post-card-content">
-                    <div class="post-meta">
-                        <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-                        {% if post.tags.size > 0 %}
-                        <span class="post-tag">{{ post.tags[0] }}</span>
-                        {% endif %}
-                    </div>
-                    <h3 class="post-title">
-                        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h3>
-                    {% if post.subtitle %}
-                    <p class="post-subtitle">{{ post.subtitle }}</p>
-                    {% endif %}
-                    <p class="post-excerpt">{{ post.content | strip_html | truncate: 120 }}</p>
-                    <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">
-                        阅读全文 <i class="fa fa-arrow-right"></i>
-                    </a>
-                </div>
-            </article>
-            {% endfor %}
-        </div>
-        {% if paginator.total_pages > 1 %}
-        <div class="view-all-posts">
-            <a href="/archive" class="btn btn-outline">查看所有文章</a>
-        </div>
-        {% endif %}
+<!-- 项目作品区域 -->
+<section id="projects" class="projects-section">
+  <div class="container">
+    <div class="section-header cyber-header">
+      <span class="section-prefix">//</span>
+      <h2 class="section-title">项目作品</h2>
+      <div class="section-underline">
+        <span class="underline-glitch"></span>
+      </div>
     </div>
-</section>
 
-<!-- Friends Section -->
-<section class="friends-section">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">友情链接</h2>
-            <div class="title-underline"></div>
+    <div class="projects-grid">
+      <!-- 项目卡片1 -->
+      <div class="project-card">
+        <div class="project-image">
+          <div class="project-overlay">
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">安全扫描</span>
+              <span class="tech-tag">自动化</span>
+            </div>
+          </div>
         </div>
-        <div class="friends-grid">
-            {% for friend in site.friends %}
-            <a href="{{ friend.href }}" target="_blank" class="friend-card glass-card">
-                <span>{{ friend.title }}</span>
+        <div class="project-content">
+          <div class="project-header">
+            <h3 class="project-title">自动化漏洞扫描系统</h3>
+            <span class="project-year">2023</span>
+          </div>
+          <p class="project-description">
+            自研的分布式Web漏洞扫描平台，支持主动扫描、被动扫描和POC验证，
+            累计发现高危漏洞数百个，覆盖SQL注入、XSS、SSRF等常见风险。
+          </p>
+          <div class="project-meta">
+            <div class="project-stat">
+              <i class="fa fa-code"></i>
+              <span>15k+ 代码</span>
+            </div>
+            <div class="project-stat">
+              <i class="fa fa-star"></i>
+              <span>200+ Stars</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">
+              <i class="fa fa-github"></i>
+              查看源码
             </a>
-            {% endfor %}
+            <a href="#" class="project-link">
+              <i class="fa fa-external-link"></i>
+              演示地址
+            </a>
+          </div>
         </div>
+      </div>
+
+      <!-- 项目卡片2 -->
+      <div class="project-card">
+        <div class="project-image">
+          <div class="project-overlay">
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">爬虫</span>
+              <span class="tech-tag">分布式</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-content">
+          <div class="project-header">
+            <h3 class="project-title">分布式爬虫框架</h3>
+            <span class="project-year">2022</span>
+          </div>
+          <p class="project-description">
+            高性能分布式爬虫系统，支持JS渲染、验证码识别、代理池管理，
+            日均处理数据量千万级，广泛应用于数据采集和安全监测场景。
+          </p>
+          <div class="project-meta">
+            <div class="project-stat">
+              <i class="fa fa-code"></i>
+              <span>8k+ 代码</span>
+            </div>
+            <div class="project-stat">
+              <i class="fa fa-download"></i>
+              <span>500+ 下载</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">
+              <i class="fa fa-github"></i>
+              查看源码
+            </a>
+            <a href="#" class="project-link">
+              <i class="fa fa-book"></i>
+              技术文档
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 项目卡片3 -->
+      <div class="project-card">
+        <div class="project-image">
+          <div class="project-overlay">
+            <div class="project-tech">
+              <span class="tech-tag">测试平台</span>
+              <span class="tech-tag">CI/CD</span>
+              <span class="tech-tag">DevOps</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-content">
+          <div class="project-header">
+            <h3 class="project-title">一体化测试平台</h3>
+            <span class="project-year">2024</span>
+          </div>
+          <p class="project-description">
+            覆盖接口测试、UI测试、性能测试、安全测试的一体化测试平台，
+            支持CI/CD无缝集成，测试效率提升300%，测试覆盖率达到95%以上。
+          </p>
+          <div class="project-meta">
+            <div class="project-stat">
+              <i class="fa fa-users"></i>
+              <span>50+ 团队使用</span>
+            </div>
+            <div class="project-stat">
+              <i class="fa fa-chart-line"></i>
+              <span>效率提升300%</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">
+              <i class="fa fa-external-link"></i>
+              在线演示
+            </a>
+            <a href="#" class="project-link">
+              <i class="fa fa-file-text"></i>
+              案例研究
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <div class="more-projects">
+      <a href="#" class="btn btn-hollow">
+        <i class="fa fa-github"></i>
+        查看更多项目
+      </a>
+    </div>
+  </div>
 </section>
 
-<!-- Contact Section -->
-<section class="contact-section">
-    <div class="container">
-        <div class="contact-content glass-card">
-            <h2>保持联系</h2>
-            <p>欢迎通过以下方式与我交流，探讨技术、摄影或生活话题</p>
-            <div class="contact-buttons">
-                <a href="mailto:{{ site.email }}" class="btn btn-primary">
-                    <i class="fa fa-envelope"></i> 发送邮件
-                </a>
-                <a href="https://github.com/{{ site.github_username }}" target="_blank" class="btn btn-outline">
-                    <i class="fa fa-github"></i> GitHub
-                </a>
-            </div>
-        </div>
+<!-- 职业时间线 -->
+<section id="timeline" class="timeline-section">
+  <div class="container">
+    <div class="section-header cyber-header">
+      <span class="section-prefix">//</span>
+      <h2 class="section-title">职业历程</h2>
+      <div class="section-underline">
+        <span class="underline-glitch"></span>
+      </div>
     </div>
+
+    <div class="timeline">
+      <div class="timeline-item left">
+        <div class="timeline-dot">
+          <div class="dot-glow"></div>
+          <i class="fa fa-graduation-cap"></i>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-date">2019</div>
+          <h3 class="timeline-title">计算机科学与技术毕业</h3>
+          <p class="timeline-description">
+            获得计算机学士学位，在校期间专注于网络安全和软件开发方向，
+            多次参与CTF比赛并取得优异成绩。
+          </p>
+          <div class="timeline-tags">
+            <span class="timeline-tag">CTF</span>
+            <span class="timeline-tag">网络安全</span>
+            <span class="timeline-tag">软件开发</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item right">
+        <div class="timeline-dot">
+          <div class="dot-glow"></div>
+          <i class="fa fa-briefcase"></i>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-date">2019 - 2021</div>
+          <h3 class="timeline-title">安全测试工程师 @ 互联网公司</h3>
+          <p class="timeline-description">
+            负责公司核心业务的安全测试和漏洞挖掘，建立自动化安全扫描体系，
+            累计发现并修复高危漏洞100+，保障了数亿用户的数据安全。
+          </p>
+          <div class="timeline-tags">
+            <span class="timeline-tag">渗透测试</span>
+            <span class="timeline-tag">漏洞挖掘</span>
+            <span class="timeline-tag">自动化扫描</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item left">
+        <div class="timeline-dot">
+          <div class="dot-glow"></div>
+          <i class="fa fa-rocket"></i>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-date">2021 - 2023</div>
+          <h3 class="timeline-title">高级测试开发工程师 @ 金融科技公司</h3>
+          <p class="timeline-description">
+            负责测试平台架构设计和DevOps流程优化，搭建了全链路自动化测试体系，
+            支持每日构建上千次，测试覆盖率从60%提升到95%，发布周期从周级缩短到日级。
+          </p>
+          <div class="timeline-tags">
+            <span class="timeline-tag">测试开发</span>
+            <span class="timeline-tag">DevOps</span>
+            <span class="timeline-tag">CI/CD</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item right">
+        <div class="timeline-dot">
+          <div class="dot-glow"></div>
+          <i class="fa fa-shield"></i>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-date">2023 - 至今</div>
+          <h3 class="timeline-title">安全技术专家 @ 头部互联网公司</h3>
+          <p class="timeline-description">
+            专注于云原生安全和SDL流程建设，主导多个安全项目的架构设计，
+            申请技术专利3项，在行业会议发表技术演讲多次，推动安全左移理念落地。
+          </p>
+          <div class="timeline-tags">
+            <span class="timeline-tag">云原生安全</span>
+            <span class="timeline-tag">SDL</span>
+            <span class="timeline-tag">技术专家</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
+<!-- 精选文章区域 -->
+<section id="articles" class="articles-section">
+  <div class="container">
+    <div class="section-header cyber-header">
+      <span class="section-prefix">//</span>
+      <h2 class="section-title">技术分享</h2>
+      <div class="section-underline">
+        <span class="underline-glitch"></span>
+      </div>
+    </div>
+
+    <div class="articles-grid">
+      {% for post in site.posts limit:6 %}
+      <article class="article-card">
+        <div class="article-meta">
+          <span class="article-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+          {% if post.tags.size > 0 %}
+          <span class="article-tag">{{ post.tags[0] }}</span>
+          {% endif %}
+        </div>
+        <h3 class="article-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+        {% if post.subtitle %}
+        <p class="article-subtitle">{{ post.subtitle }}</p>
+        {% endif %}
+        <p class="article-excerpt">{{ post.content | strip_html | truncate: 100 }}</p>
+        <div class="article-footer">
+          <span class="read-time">
+            <i class="fa fa-clock"></i>
+            {{ post.content | number_of_words | divided_by: 200 }} 分钟阅读
+          </span>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="read-article">
+            阅读全文 <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+
+    <div class="view-all-articles">
+      <a href="/archive" class="btn btn-hollow">
+        <i class="fa fa-book"></i>
+        查看所有文章
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 摄影作品区域 -->
+<section id="photography" class="photography-section">
+  <div class="container">
+    <div class="section-header cyber-header">
+      <span class="section-prefix">//</span>
+      <h2 class="section-title">光影世界</h2>
+      <div class="section-underline">
+        <span class="underline-glitch"></span>
+      </div>
+      <p class="section-subtitle">工作之余，我喜欢用镜头记录生活中的美好瞬间</p>
+    </div>
+
+    <div class="photo-grid">
+      <div class="photo-item">
+        <div class="photo-overlay">
+          <div class="photo-info">
+            <h4 class="photo-title">城市夜景</h4>
+            <p class="photo-location">上海 · 外滩</p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-item">
+        <div class="photo-overlay">
+          <div class="photo-info">
+            <h4 class="photo-title">山川湖海</h4>
+            <p class="photo-location">西藏 · 纳木错</p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-item">
+        <div class="photo-overlay">
+          <div class="photo-info">
+            <h4 class="photo-title">人文纪实</h4>
+            <p class="photo-location">成都 · 宽窄巷子</p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-item">
+        <div class="photo-overlay">
+          <div class="photo-info">
+            <h4 class="photo-title">星空银河</h4>
+            <p class="photo-location">青海 · 茶卡盐湖</p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-item">
+        <div class="photo-overlay">
+          <div class="photo-info">
+            <h4 class="photo-title">城市建筑</h4>
+            <p class="photo-location">深圳 · 平安金融中心</p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-item">
+        <div class="photo-overlay">
+          <div class="photo-info">
+            <h4 class="photo-title">自然风光</h4>
+            <p class="photo-location">云南 · 玉龙雪山</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="view-more-photos">
+      <a href="#" class="btn btn-hollow">
+        <i class="fa fa-camera"></i>
+        查看更多作品
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 联系区域 -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2 class="contact-title">
+          <span class="glitch-text" data-text="联系我">联系我</span>
+        </h2>
+        <p class="contact-description">
+          欢迎交流技术、合作项目，或者聊聊摄影和旅行。
+          我会在24小时内回复您的消息。
+        </p>
+        <div class="contact-methods">
+          <a href="mailto:{{ site.email }}" class="contact-method">
+            <div class="contact-icon">
+              <i class="fa fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <span class="contact-label">邮箱</span>
+              <span class="contact-value">{{ site.email }}</span>
+            </div>
+          </a>
+          <a href="https://github.com/{{ site.github_username }}" target="_blank" class="contact-method">
+            <div class="contact-icon">
+              <i class="fa fa-github"></i>
+            </div>
+            <div class="contact-details">
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">@{{ site.github_username }}</span>
+            </div>
+          </a>
+          <a href="https://www.zhihu.com/people/{{ site.zhihu_username }}" target="_blank" class="contact-method">
+            <div class="contact-icon">
+              <i class="fa fa-book"></i>
+            </div>
+            <div class="contact-details">
+              <span class="contact-label">知乎</span>
+              <span class="contact-value">@{{ site.zhihu_username }}</span>
+            </div>
+          </a>
+          <a href="https://weibo.com/{{ site.weibo_username }}" target="_blank" class="contact-method">
+            <div class="contact-icon">
+              <i class="fa fa-weibo"></i>
+            </div>
+            <div class="contact-details">
+              <span class="contact-label">微博</span>
+              <span class="contact-value">@{{ site.weibo_username }}</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="contact-qrcode">
+        <div class="qrcode-container">
+          <div class="qrcode-scan-effect"></div>
+          <div class="qrcode-placeholder">
+            <i class="fa fa-qrcode"></i>
+            <p>微信扫码添加好友</p>
+            <span class="qrcode-note">备注：来自个人网站</span>
+          </div>
+        </div>
+        <div class="qrcode-info">
+          <p>添加好友请注明来意，欢迎技术交流、项目合作、内推咨询。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 终端风格页脚 -->
+<footer class="cyber-footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-terminal">
+        <div class="terminal-header">
+          <div class="terminal-button close"></div>
+          <div class="terminal-button minimize"></div>
+          <div class="terminal-button maximize"></div>
+          <span class="terminal-title">root@mitnickex:~#</span>
+        </div>
+        <div class="terminal-body">
+          <div class="terminal-line">
+            <span class="terminal-prompt">root@mitnickex:~#</span>
+            <span class="terminal-command">cat site_status</span>
+          </div>
+          <div class="terminal-line">
+            <span class="terminal-output">Site online since 2016</span>
+          </div>
+          <div class="terminal-line">
+            <span class="terminal-output">Uptime: <span class="live-uptime">2920 days</span></span>
+          </div>
+          <div class="terminal-line">
+            <span class="terminal-output">Total Visitors: <span class="visitor-count">100000+</span></span>
+          </div>
+          <div class="terminal-line">
+            <span class="terminal-prompt">root@mitnickex:~#</span>
+            <span class="terminal-command">echo "Thanks for visiting!"</span>
+          </div>
+          <div class="terminal-line">
+            <span class="terminal-output">Thanks for visiting!</span>
+          </div>
+          <div class="terminal-line">
+            <span class="terminal-prompt">root@mitnickex:~#</span>
+            <span class="terminal-cursor">_</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.
+        </p>
+        <div class="footer-links">
+          <a href="https://beian.miit.gov.cn/" target="_blank">ICP备案号</a>
+          <span>|</span>
+          <a href="/feed.xml" target="_blank">RSS订阅</a>
+          <span>|</span>
+          <a href="https://github.com/MitnickEX/mitnickex.github.io" target="_blank">站点源码</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
